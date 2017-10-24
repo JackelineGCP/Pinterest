@@ -1,0 +1,78 @@
+body{
+    text-align: center;
+}
+a {
+   /* outline: 1px solid red;  */
+   font-family: 'Merriweather', serif;
+    text-decoration: none;
+    padding: 21px;
+    background: gainsboro;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+li {
+    display: inline-block;
+    
+    
+}
+
+nav {
+    /*outline: 1px solid gray;*/
+    text-align: center;
+    margin-top: 30px;
+}
+
+[class^="icon-"], [class*="icon-"] {
+    font-size: 20px;
+}
+    
+
+from {
+    outline: 1px solid blue;
+}
+
+ btn {
+    font-size: 15px;
+}
+
+
+div {
+    display: inline;
+}
+
+.uno {
+    background: blue;
+    font-size: 4    0px;
+}
+.input-text {
+    background: yellow;
+}
+
+input {
+    width: 881px;
+    outline: 1px solid brown;
+}
+
+img{
+    width: 220px;
+}
+section{
+    display: inline-block;
+    /*outline: 2px solid red;*/
+    width: 1069px;
+    /*margin-left: 100px ;*/
+    
+    
+    
+}
+figure{
+    display: inline-block;
+    margin-left: 1px    
+}
+
+header{
+    margin-bottom: 23px;
+}
