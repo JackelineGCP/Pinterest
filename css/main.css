@@ -1,23 +1,21 @@
 body{
     text-align: center;
+    margin-top: -19px;
 }
 
 a { 
+    background: #969450;
+    border-radius: 10px;
+    color: white;
     font-family: 'Merriweather', serif;
     text-decoration: none;
     padding: 21px;
-    background: #ab8b6f;
     margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 10px;
-    color: black;
-  
+    margin-right: 10px; 
 }
 
 li{
-    display: inline-block;
-    
-       
+    display: inline-block;    
 }
 
 nav {
@@ -26,32 +24,22 @@ nav {
 }
 
 [class^="icon-"], [class*="icon-"] {
-    font-size: 20px;
-}
-    
-
-
-
- btn {
-    font-size: 15px;
+    font-size: 21px;
 }
 
 
 div {
-    display: inline;
+    display: inline-block;
+    margin: 17px;
 }
 
-
-}
-
-.input-text {
-    background: yellow;
-}
-
-input {
+input{
+    text-indent: 0px;
     width: 881px;
-  
+    padding: 11px;
+    /*border-radius: -800px;*/
 }
+
 
 img{
     border-radius: 10px;
@@ -69,5 +57,13 @@ figure{
 }
 
 header{
-    margin-bottom: 23px;
+    background: white;
+    margin bottom: 23px;
+    display: block;
+    height:177px ;
+    width: 100%; 
+}
+
+p{
+    display: inline;
 }
