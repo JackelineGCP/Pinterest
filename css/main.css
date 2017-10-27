@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     text-align: center;
-    margin-top: -19px;
+    margin-top: -31px;
 }
 
 a { 
@@ -27,19 +32,46 @@ nav {
     font-size: 21px;
 }
 
+.icon-brand186{
+    font-size: 40px;
+    transform: translateY(50%)
+}
+
+header li{
+    transform: translateY(20%)
+
+}
+
+.icon-search btn{
+    font-size: 35px;
+}
+
+.icon-cross btn{
+    font-size: -10px;
+    
+}
 
 div {
     display: inline-block;
     margin: 17px;
 }
 
+.brg{
+    border: 0px;
+    background: #efefef;
+    border-radius: 4px;
+
+}
+
 input{
+    
+    background: #efefef;
+    border: 0px;
     text-indent: 0px;
     width: 881px;
     padding: 11px;
-    /*border-radius: -800px;*/
+    
 }
-
 
 img{
     border-radius: 10px;
@@ -47,6 +79,7 @@ img{
 }
 
 section{
+    
     display: inline-block;
     width: 1393px;
 
@@ -58,7 +91,7 @@ figure{
 
 header{
     background: white;
-    margin bottom: 23px;
+    margin-bottom: 23px;
     display: block;
     height:177px ;
     width: 100%; 
